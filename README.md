@@ -1,7 +1,7 @@
 march 30, 2024
 
 home/dev_ws  
-
+<br>
 rebuild when file is changed:  
 colcon build --symlink-install  
 
@@ -13,7 +13,8 @@ rviz2 -d src/bot/config/view_bot.rviz
 
 source install/setup.bash  
 ros2 run joint_state_publisher_gui joint_state_publisher_gui  
-
+<br>
+<br>
 source /opt/ros/iron/setup.bash from jergra43@jergra43:/$  
 
 ## Robot Package Template
