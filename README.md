@@ -1,3 +1,24 @@
+rebuild when file is changed:
+    colcon build --symlink-install
+
+source install/setup.bash from jergra43@jergra43:~/dev_ws$
+ros2 launch bot rsp.launch.py
+
+source install/setup.bash
+rviz2 -d src/bot/config/view_bot.rviz
+
+source install/setup.bash
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+
+
+
+source /opt/ros/iron/setup.bash from jergra43@jergra43:/$
+
+
+
+
+
 ## Robot Package Template
 
 This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
