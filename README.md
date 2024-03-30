@@ -1,34 +1,21 @@
 march 30, 2024
 
-home/dev_ws
-<br/> 
+home/dev_ws  
+
 rebuild when file is changed:
     
-    colcon build --symlink-install
-<br/> 
-source install/setup.bash from jergra43@jergra43:~/dev_ws$
+    colcon build --symlink-install  
 
-ros2 launch bot rsp.launch.py
-<br/> 
-source install/setup.bash
+source install/setup.bash from jergra43@jergra43:~/dev_ws$ 
+ros2 launch bot rsp.launch.py  
 
-rviz2 -d src/bot/config/view_bot.rviz
-<br/> 
-source install/setup.bash
-<br/>
-<br/> 
-ros2 run joint_state_publisher_gui joint_state_publisher_gui
+source install/setup.bash 
+rviz2 -d src/bot/config/view_bot.rviz  
 
+source install/setup.bash 
+ros2 run joint_state_publisher_gui joint_state_publisher_gui  
 
-
-
-
-
-source /opt/ros/iron/setup.bash from jergra43@jergra43:/$
-
-
-
-
+source /opt/ros/iron/setup.bash from jergra43@jergra43:/$  
 
 ## Robot Package Template
 
