@@ -1,24 +1,22 @@
 march 30, 2024
 
 home/dev_ws
-
-
+<br/> 
 rebuild when file is changed:
     
     colcon build --symlink-install
-
+<br/> 
 source install/setup.bash from jergra43@jergra43:~/dev_ws$
 
 ros2 launch bot rsp.launch.py
-
-
+<br/> 
 source install/setup.bash
 
 rviz2 -d src/bot/config/view_bot.rviz
-
-
+<br/> 
 source install/setup.bash
-
+<br/>
+<br/> 
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
 
 
